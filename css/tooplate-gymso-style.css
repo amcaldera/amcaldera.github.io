@@ -825,16 +825,16 @@ https://www.tooplate.com/view/2119-gymso-fitness
 
 @-webkit-keyframes "pulse" {
 0% {
--webkit-transform: scale(1.1);
-transform: scale(1.1);
+-webkit-transform: scale(1.05);
+transform: scale(1.05);
 }
 50% {
 -webkit-transform: scale(1);
 transform: scale(1);
 }
 100% {
--webkit-transform: scale(1.1);
-transform: scale(1.1);
+-webkit-transform: scale(1.05);
+transform: scale(1.05);
 }
 }
 
