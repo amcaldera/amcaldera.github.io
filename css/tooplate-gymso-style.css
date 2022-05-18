@@ -383,16 +383,9 @@ https://www.tooplate.com/view/2119-gymso-fitness
     position: relative;
   }
 
-  @media screen and (max-width: 480px) {
+  @media (max-width: 500px){
     .hero {
-      background-image: url('../images/Ad/karol.png');
-      background-size: cover;
-      background-color: #000000;
-      background-position: middle center;
-      background-repeat: no-repeat;
-      vertical-align: middle;
-      min-height: 100vh;
-      position: relative;
+      min-height: 90vh;
     }
   }
 
