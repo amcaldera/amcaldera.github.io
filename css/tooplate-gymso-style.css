@@ -910,6 +910,24 @@ transform: scale(1.05);
     position: relative;
 }
 
+@media (max-width: 500px){
+  .images-wrapper .slide.one {
+    background-image: url('../images/Ad/Render\ A1m.png');
+  }
+  
+  .images-wrapper .slide.two {
+    background-image: url('../images/Ad/Render\ B2m.png');
+  }
+  
+  .images-wrapper .slide.three {
+    background-image: url('../images/Ad/Render\ C3m.png');
+  }
+  
+  .images-wrapper .slide.four {
+    background-image: url('../images/Ad/Render\ D4m.png');
+  }
+}
+
 .images-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
