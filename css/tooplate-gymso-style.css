@@ -373,10 +373,10 @@ https://www.tooplate.com/view/2119-gymso-fitness
   -----------------------------------------*/
 
   .hero {
-    background-image: url('../images/Ad/Render\ A1.png');
+    background-image: url('../images/Ad/karol.png');
     background-size: cover;
     background-color: #000000;
-    background-position: top right;
+    background-position: top center;
     background-repeat: no-repeat;
     vertical-align: middle;
     min-height: 100vh;
@@ -859,7 +859,7 @@ transform: scale(1.1);
 }
 
 .images-wrapper .slide.one {
-  background-image: url('../images/Ad/Render\ C3.png');
+  background-image: url('../images/Ad/Render\ A1.png');
   background-size: cover;
     background-color: #000000;
     background-position: top right;
@@ -881,6 +881,17 @@ transform: scale(1.1);
 }
 
 .images-wrapper .slide.three {
+  background-image: url('../images/Ad/Render\ C3.png');
+  background-size: cover;
+    background-color: #000000;
+    background-position: top right;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+}
+
+.images-wrapper .slide.four {
   background-image: url('../images/Ad/Render\ D4.png');
   background-size: cover;
     background-color: #000000;
@@ -893,16 +904,16 @@ transform: scale(1.1);
 
 .images-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
-  animation: slideToLeft 10s ease infinite;
+  animation: slideToLeft 15s ease infinite;
 
-  animation: slideToLeft 5s ease infinite 1s;
+  animation: slideToLeft 10s ease infinite 1s;
 }
 
 .slide.one {
   z-index: -1;
-  animation: image-change 5s ease infinite 1s;
+  animation: image-change 10s ease infinite 1s;
 }
 
 @keyframes image-change {
@@ -912,25 +923,30 @@ transform: scale(1.1);
   }
   70%,
   100% {
-    transform: translateX(300%);
+    transform: translateX(400%);
   }
 }
 
 @keyframes slideToLeft {
   0%,
-  10% {
+  5% {
     transform: translateX(0);
   }
-  15%,
-  45% {
+  10%,
+  30% {
     transform: translateX(-100%);
   }
-  50%,
-  80% {
+  35%,
+  55% {
     transform: translateX(-200%);
+  }
+  60%,
+  80% {
+    transform: translateX(-300%);
   }
   85%,
   100% {
-    transform: translateX(-300%);
+    transform: translateX(-400%);
   }
 }
+
